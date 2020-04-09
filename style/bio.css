@@ -94,6 +94,6 @@
     justify-content: space-between;
 }
 
-a, a:visited, a:hover {
+.bio a, .bio a:visited {
     color: white;
 }
