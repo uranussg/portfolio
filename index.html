@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./style/header.css">
     <link rel="stylesheet" href="./style/bio.css">
     <link rel="stylesheet" href="./style/skills.css">
-    <link rel="stylesheet" href="./style/gameroom.css">
     <link rel="stylesheet" href="./style/projects.css">
 
     <script src="bundle.js"></script>
@@ -15,7 +14,7 @@
 </head>
 <body>
     <div class="bg"></div>
-    <header>
+    <header class="header">
         <div class="vertical-line"></div>
         <div class="container">
             <p class="title">software engineer</p>
@@ -27,25 +26,37 @@
         </div>
     </header>
     <nav class="navigation">
-        <a href=""><span></span></a>
-        <a href=""><span></span></a>
-        <a href=""><span></span></a>
-        <a href=""><span></span></a>
+        <a class="navigation-spot" href="javascript:Navigation.scrollTo('.header');"><span></span></a>
+        <a class="navigation-spot" href="javascript:Navigation.scrollTo('.bio');"><span></span></a>
+        <a class="navigation-spot" href="javascript:Navigation.scrollTo('.skills');"><span></span></a>
+        <a class="navigation-spot" href="javascript:Navigation.scrollTo('.projects');"><span></span></a>
+    
     </nav>
 
     <section class="bio">
         <div class='side-name'>2020.4</div>
         <div class="container">
+            <div class="cv">
+                <p><a href="https://docs.google.com/document/d/1LMENur9Ep0xcEgJ79Nkut7M5KqcY4Q0tme10m4nHuhA/edit?usp=sharing">profile</a></p>
+            </div>
             <div class="about">
                 <p>I am s software engineer now actively looking for positions in full-stack, frontend/backend position. 
                     Coming from background of theoretical physics PhD, I have good knowledge of math and scientific techniques and well trained critical mind. 
                     I equipped myself with both frontend and backend techniques. I love learning new techniques and put them into use quickly. 
                 </p>
             </div>
-            <div class="education"></div>
+
             <div class="info">
                 <p>(352) 278-6498</p>
                 <p>uranussg@gmail.com</p>
+                
+            </div>            
+            <div class="education">
+                <p>
+                    <strong>Web Development </strong>- <span> App Academy</span>   |   Spring 2020
+                    <br>
+                    <strong>Ph.D Theoretical Physics </strong>- <span> University of Florida</span>   |   2012 - 2019  |  Supervisor: Prof. Charles Thorn  | Doctoral Dissertation: Aspects of String Bit Models 
+                </p>
             </div>
         </div>
     </section>
@@ -97,23 +108,42 @@
     <section class="projects">
         <div class="container">
             <div class="lovereads">
-                <img src="" alt="">
-                <div class="mask"></div>
+                <a href="http://lovereads.herokuapp.com/" class="module-container">
+                    <div class="picture"></div>
+                    <div class="module">
+                        <div class="text">
+                            <h2>LoveReads</h2>
+                            <div class="line"></div>
+                            <p>GoodRead clone website utilizing activeRecords and AW3 where users can listing, tagging, rate, review, search books</p>
+                        </div>
+                    </div>
+                </a>
             </div>   
             <div class="solarsystem">
-                <img src="" alt="">
+                <a href="https://uranussg.github.io/solarsystem/" class="module-container">
+                    <div class="picture"></div>
+                    <div class="module">
+                        <div class="text">
+                            <h2>SolarSystem</h2>
+                            <div class="line"></div>
+                            <p>3D model which simulate the real-time positions and orbits of planets	</p>
+                        </div>
+                    </div>
+                </a>
             </div>    
             <div class="gameroom">
 
-            <div class="module-container">
-                <img class='picture' src="./asset/gameroom.PNG" alt="">
-                <div class="module">
-                    <div class="text">
-                        <h2>The Game Room</h2>
+                <a href="https://thegameroom100.herokuapp.com/#/" class="module-container">
+                    <div class='picture'></div>
+                    <div class="module">
+                        <div class="text">
+                            <h2>GameRoom</h2>
+                            <div class="line"></div>
+                            <p>Live chat based role-playing project which enable multi-room gaming with  pre-saved game themes and roles</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-    </div>
         </div>    
  
 

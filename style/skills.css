@@ -53,6 +53,19 @@
     height: 16px;
     width: 4px;
     margin-right: 8px;
+    transition: 0.8s ease-in-out;
+}
+
+.skill-list strong{
+    transition: 1s ease-in-out;
+}
+
+.skill-list p:hover strong {
+    transform: translate(8px);
+}
+
+.skill-list p:hover .inline-bar {
+    transform: rotate(90deg);
 }
 
 .line-2 {

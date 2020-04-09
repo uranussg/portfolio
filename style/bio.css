@@ -23,10 +23,67 @@
 }
 
 .bio .about {
+    position: absolute;
     width: 350px;
     text-align: left;
-    padding: 280px 0;
+    /* padding: 280px 0; */
+    top: 30%;
+    transition: 1s ease-in-out;
 }
+
+.bio .education {
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    /* padding: 280px 0; */
+    top: 30%;
+    transition: 1s ease-in-out;
+    opacity: 0;
+    
+}
+
+.bio .education span {
+    font-style: italic;
+}
+
+.about p {
+    margin: 0;
+}
+
+.bio .cv {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    border: 8px solid white;
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.bio .cv p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+
+}
+
+.bio .cv:hover {
+    /* cursor: pointer; */
+    width: 200px;
+    /* transform: translate(0, -50%); */
+}
+
+.bio .cv:hover + .about {
+    /* opacity: 0; */
+}
+
+.bio .cv:hover ~ div:last-child {
+    transform: translate(137%, 160%);
+    opacity: 1;
+}
+
 
 .bio .info {
     width: 300px;
@@ -35,4 +92,8 @@
     bottom: 16px;
     display: flex;
     justify-content: space-between;
+}
+
+a, a:visited, a:hover {
+    color: white;
 }

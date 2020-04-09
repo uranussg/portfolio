@@ -7,3 +7,133 @@
     height: 100%;
 }
 
+
+.gameroom, .lovereads, .solarsystem  {
+    /* background-image: url(../asset/gameroom.PNG); */
+    height: 60vh;
+
+    position: relative;
+    background: transparent;
+}
+
+.gameroom .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background:linear-gradient(black, white); */
+    opacity: 0
+}
+
+ .module-container {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    z-index: 1;
+    top:0;
+    left: 0;
+}
+
+ .picture {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    opacity: 1;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.lovereads .picture {
+    background-image: url('../asset/lovereadsg.png');
+}
+
+.solarsystem .picture {
+    background-image: url('../asset/solarsystemg.PNG');
+}
+
+.gameroom .picture {
+    background-image: url('../asset/gameroomg.png');
+}
+
+
+.module {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.module-container .line {
+    opacity: 0;
+    height: 3px;
+    background-color: white;
+    width: 33%;
+    transition: 1s ease-in-out;    
+}
+.module .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 180%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+
+
+.module h2 {
+    /* font-family: "Satisfy",cursive; */
+    font-size: 40px;
+    /* text-shadow: 0 0 4px #241c13; */
+    transform: translateX(50%) ;
+    transition: 0.5s ease-out;   
+    opacity: 0; 
+}
+.module-container:hover .line {
+    opacity: 1;
+    transition: 0.7s ease-in-out;    
+
+    transform: translate(100%) scaleX(3) ;  
+
+}
+
+
+
+
+.module-container:hover h2 {
+    opacity: 1;
+    transform: translateX(1%) ;
+}
+
+.module p {
+    padding: 24px 0;
+    transform: translateY(100%);
+    transition: 0.5s ease-out;  
+    opacity: 0;  
+}
+
+
+.module-container:hover p {
+    opacity: 1;
+    transform: translate(1%);
+}
+
+.lovereads .module-container:hover .picture {
+    background-image: url('../asset/lovereads.PNG');
+    opacity: 0.9;
+}
+
+
+.gameroom .module-container:hover .picture {
+    background-image: url('../asset/gameroom.PNG');
+    opacity: 0.9;
+}
+
+
+.solarsystem .module-container:hover .picture {
+    background-image: url('../asset/solarsystem.PNG');
+    opacity: 0.9;
+}

@@ -45,10 +45,10 @@
 }
 
 .gameroom .module h2 {
-    color: #fff7c8;
-    font-family: "Satisfy",cursive;
+    color: white;
+    /* font-family: "Satisfy",cursive; */
     font-size: 40px;
-    text-shadow: 0 0 4px #241c13;
+    /* text-shadow: 0 0 4px #241c13; */
 }
 
 .gameroom .module-container:hover .picture {
