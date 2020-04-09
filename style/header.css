@@ -21,7 +21,7 @@ body {
 
 .vertical-line {
     right: 38px;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.3);
     position: absolute;
     top: 260px;
     width: 2px;
@@ -92,7 +92,7 @@ header {
 .navigation span {
     border: 2px solid transparent;
     border-radius: 100%;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.4);
     display: block;
     width: 14px;
     height: 14px;
@@ -112,7 +112,7 @@ header {
     cursor: pointer;
     /* display: none; */
     transition: all 0.3s;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .black:hover span {
