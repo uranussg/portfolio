@@ -1,0 +1,9 @@
+.projects {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.692), rgb(5, 5, 5));
+    height: 200vh;
+}
+
+.projects .container {
+    height: 100%;
+}
+

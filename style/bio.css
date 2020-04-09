@@ -1,0 +1,38 @@
+.bio {
+    background: black;
+    color: white;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.side-name {
+    transform: rotate(90deg);
+    position: absolute;
+    right: 30px;
+    top: 160px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+}
+
+.bio .container {
+    margin: auto;
+    width: 1100px;
+    position: relative;
+}
+
+.bio .about {
+    width: 350px;
+    text-align: left;
+    padding: 280px 0;
+}
+
+.bio .info {
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}

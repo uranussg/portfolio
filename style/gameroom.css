@@ -1,0 +1,60 @@
+.gameroom  {
+    /* background-image: url(../asset/gameroom.PNG); */
+    height: 100vh;
+
+    position: relative;
+    background: transparent;
+}
+
+.gameroom .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background:linear-gradient(black, white); */
+    opacity: 0
+}
+
+.gameroom .module-container {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    bottom: 60px;
+    right: 60px;
+}
+
+.gameroom .picture {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    bottom: 10px;
+}
+
+
+.gameroom .module {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.gameroom .module .text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gameroom .module h2 {
+    color: #fff7c8;
+    font-family: "Satisfy",cursive;
+    font-size: 40px;
+    text-shadow: 0 0 4px #241c13;
+}
+
+.gameroom .module-container:hover .picture {
+    opacity: 0.3;
+}
+
+.gameroom .module-container:hover .module {
+    display: block;
+}
