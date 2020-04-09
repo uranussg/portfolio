@@ -137,3 +137,8 @@
     background-image: url('../asset/solarsystem.PNG');
     opacity: 0.9;
 }
+
+
+.text a {
+    color: white
+}
