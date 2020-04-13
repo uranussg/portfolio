@@ -57,6 +57,8 @@ header {
     color: white;
 }
 
+
+
 .name {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
@@ -118,4 +120,12 @@ header {
 .black:hover span {
     border: 2px solid rgba(0, 0, 0, 0.4);
 
+}
+
+.copyright {
+    position: absolute;
+    font-size: 1.6vh;
+    bottom: 0;
+    color: white;
+    right: 0;
 }
