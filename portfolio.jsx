@@ -18,12 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const education = document.getElementsByClassName('education')[0]
         about.style.opacity = '0'
         education.style.opacity = '0'
-        console.log(y/vh)
-        if ( y/vh > 0.8 && y/vh < 1.2)
+        education.style.transform = 'translate(0px, 0px)'
+        // console.log(y/vh)
+        if ( y/vh > 0.6 && y/vh < 1.2)
         {
         about.style.opacity = '1'
+        education.style.transform ='translate(137%, 160%)'
+        // education.style.transform = 'scale(2)'
         education.style.opacity = '1'
-        education.transform ='translate(137%, 160%)'
 
         }
 
