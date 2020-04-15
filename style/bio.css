@@ -53,10 +53,10 @@
 
 .bio .cv {
     position: absolute;
-    top: 30%;
+    top: 32%;
     left: 50%;
     height: 120px;
-    width: 100px;
+    width: 120px;
     border: 8px solid white;
     text-align: center;
     transition: 1s ease-in-out;
@@ -82,7 +82,8 @@
 
 .bio .cv:hover {
     /* cursor: pointer; */
-    width: 140px;
+    transform: scale(1.2);
+    border-radius: 2em;
     /* transform: translate(0, -50%); */
 }
 
