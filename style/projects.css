@@ -181,3 +181,11 @@
     color: white
 }
 
+
+.copyright {
+    /* position: absolute; */
+    font-size: 1.8vh;
+    /* bottom: 0; */
+    color: white;
+    /* right: 0; */
+}
