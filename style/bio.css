@@ -63,13 +63,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-image: url('../asset/profile.png');
+    background-size: cover;
 }
 
 .bio .cv p {
     display: block;
     height: 50px;
     margin: 0;
-
+    opacity: 0;
+    transition: 1s ease-in-out;
 }
 
 .bio .cv p:first-child{
@@ -85,6 +88,11 @@
     transform: scale(1.2);
     border-radius: 2em;
     /* transform: translate(0, -50%); */
+    background-image: none;
+}
+
+.bio .cv:hover p {
+    opacity: 1;
 }
 
 .bio .cv:hover + .about {
