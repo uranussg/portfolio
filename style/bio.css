@@ -54,7 +54,7 @@
 .cv{
     position: absolute;
     top: 32%;
-    left: 50%;
+    left: 70%;
     height: 120px;
     width: 120px;
     border: 8px solid white;
@@ -68,7 +68,7 @@
 .profile-pic, .profile-pic-c {
     position: absolute;
     top: 32%;
-    left: 70%;
+    left: 50%;
     height: 160px;
     width: 120px;
     border: 8px solid white;
